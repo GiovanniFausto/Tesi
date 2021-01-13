@@ -81,10 +81,7 @@ Mentre per Citeseer l’AUC è sempre elevata e solo in un caso scende drasticam
 I  modelli migliori per i due dataset sono diversi. Infatti per Cora il modello migliore ha 4 livelli GAT, mentre per Citeseer è quello con 2 livelli GAT. In questo ultimo caso, con la metà dei livelli si riescono ad ottenere ottimi risultati. Probabilmente, questo è dovuto anche al fatto che Citeseer ha molti più nodi e molte più feature di Cora. 
 
 
-![alt text](https://github.com/GiovanniFausto/Tesi/blob/master/plot/Cora/totali/gat/coraBestAucVariazioneGAT.png)
-
-
-![alt text](https://github.com/GiovanniFausto/Tesi/blob/master/plot/Citeseer/totali/gat/citeseerBestAucVariazioneGAT.png)
+![alt text](https://github.com/GiovanniFausto/Tesi/blob/master/plot/Cora/totali/gat/coraBestAucVariazioneGAT.png) ![alt text](https://github.com/GiovanniFausto/Tesi/blob/master/plot/Citeseer/totali/gat/citeseerBestAucVariazioneGAT.png)
 
 # Conclusioni 
 Con questa tesi abbiamo analizzato il problema del link prediction tramite l’uso del Geometric Deep Learning, analizzando e risolvendo i problemi principali legati a questo tema, ed esplorando le metodologie usate fino ad ora in letteratura, usando modelli basati sull’architettura GAT.
