@@ -1,6 +1,9 @@
 # Link Prediction using Geometric Deep Learning
 
-Lo scopo di questa tesi è dimostrare come sia possibile fare link prediction usando quello che è il deep learning di tipo geometrico.
+Lo scopo di questa tesi è dimostrare come sia possibile fare link prediction usando quello che è il deep learning di tipo geometrico su delle network.
+
+
+![alt text](https://github.com/GiovanniFausto/Tesi/blob/master/img/networking.png)
 
 # Link prediction
 
@@ -11,6 +14,9 @@ Per questo scopo è stato scelto di usare modelli basati sul Geometric Deep Lear
 # Il problema
 
 Il problema principale è quello di prevedere, dati due nodi qualsiasi di una rete, l’esistenza di un collegamento tra di essi. Questo problema può essere risolto usando tecniche e approcci diversi in base al campo di applicazione e al risultato che si vuole ottenere.
+
+
+![alt text](https://github.com/GiovanniFausto/Tesi/blob/master/img/Link%20pred.png)
 
 # Obiettivo
 
@@ -30,6 +36,9 @@ Tutto ciò che possiamo osservare lo osserviamo in tre dimensioni e quindi i nos
 Le reti sono un esempio di dati non euclidei, e sono quelle maggiormente usate nel campo del link prediction, quindi è stato usato il Geometric Deep Learning per far fronte alla limitazioni del deep learning tradizionale.
 
 Più precisamente, dato che si parla di grafi, sono state usate una categoria particolare delle Graph Neural Network, che sono le Graph Attention Network.
+
+
+![alt text](https://github.com/GiovanniFausto/Tesi/blob/master/img/noEuclideo.png)
 
 # Graph Attention Network
 
@@ -56,6 +65,7 @@ Successivamente il risultato ottenuto viene fatto passare attraverso un fully co
 
 Per finire dato che si vuole calcolare una probabilità viene usata una sigmoid. 
 
+
 # Esperimenti 
 
 Gli esperimenti sono stati condotti su due reti: Cora e Citeseer. 
@@ -67,6 +77,9 @@ Sono stati testati circa 100 modelli, ogni modello aveva un numero diverso di li
 Più precisamente, i livelli GAT sono stati fatti variare da un minimo di un livello a un massimo di quattro livelli, mentre i livelli lineari da uno a tre. Le head scelte sono state una e quattro. 
 
 È stato fatto un train di 100 epoche su tutti i modelli per avere risultati consistenti. Per quanto riguarda la loss è stata considerata la Binary Cross Entropy.
+
+<img src="https://github.com/GiovanniFausto/Tesi/blob/master/img/citeSerrCompleto.png" width="450" height="400"><img src= "https://github.com/GiovanniFausto/Tesi/blob/master/img/cora_completo.png" width="450" height="400">
+
 
 # Risultati 
 
