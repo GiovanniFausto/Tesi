@@ -78,7 +78,7 @@ Più precisamente, i livelli GAT sono stati fatti variare da un minimo di un liv
 
 È stato fatto un train di 100 epoche su tutti i modelli per avere risultati consistenti. Per quanto riguarda la loss è stata considerata la Binary Cross Entropy.
 
-<img src="https://github.com/GiovanniFausto/Tesi/blob/master/img/citeSerrCompleto.png" width="450" height="400"><img src= "https://github.com/GiovanniFausto/Tesi/blob/master/img/cora_completo.png" width="450" height="400">
+<img src="https://github.com/GiovanniFausto/Tesi/blob/master/img/citeSerrCompleto.png" width="400" height="400"><img src= "https://github.com/GiovanniFausto/Tesi/blob/master/img/cora_completo.png" width="400" height="400">
 
 
 # Risultati 
